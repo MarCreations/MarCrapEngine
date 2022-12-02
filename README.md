@@ -4,6 +4,6 @@ MarCrapEngine is a learning, AMBITIOUS project, which consists in programming a 
 
 Future tasks
 
-- [ ] Implementing an event system;
-- [ ] LEARNING OPENGL;
-- [ ] Implementing a GUI;
+- [ ] Implementing an event system
+- [ ] LEARNING OPENGL
+- [ ] Implementing a GUI
