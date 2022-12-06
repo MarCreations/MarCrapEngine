@@ -2,7 +2,7 @@
 
 #include "Core.h"
 
-namespace MCEngine {
+namespace MarCrapEngine {
 
 	class MCE_API Application
 	{

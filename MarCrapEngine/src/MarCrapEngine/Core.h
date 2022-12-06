@@ -8,6 +8,5 @@
 		#define MCE_API __declspec(dllimport)
 	#endif
 #else
-	#error MarCrapEngine only supports Windows!
+	#error Use Windows you dickhead.
 #endif
-

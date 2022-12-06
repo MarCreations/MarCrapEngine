@@ -1,6 +1,6 @@
 #include "Application.h"
 
-namespace MCEngine {
+namespace MarCrapEngine {
 
 	Application::Application() {}
 	Application::~Application() {}

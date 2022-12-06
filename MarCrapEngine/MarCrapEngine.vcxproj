@@ -11,12 +11,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\MarCrapEngine\Events\Event.h" />
+    <ClInclude Include="src\MarCrapEngine\Log.h" />
     <ClInclude Include="src\MarCrapEngine.h" />
     <ClInclude Include="src\MarCrapEngine\Application.h" />
     <ClInclude Include="src\MarCrapEngine\Core.h" />
     <ClInclude Include="src\MarCrapEngine\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\MarCrapEngine\Log.cpp" />
     <ClCompile Include="src\MarCrapEngine\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -66,6 +69,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>MCE_PLATFORM_WINDOWS;MCE_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)MarCrapEngine\vendor\spdlog\include; $(SolutionDir)MarCrapEngine/src/</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -80,6 +84,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>MCE_PLATFORM_WINDOWS;MCE_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)MarCrapEngine\vendor\spdlog\include; $(SolutionDir)MarCrapEngine/src/</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

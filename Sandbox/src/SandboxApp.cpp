@@ -1,13 +1,13 @@
 #include <MarCrapEngine.h> 
 
-class Sandbox : public MCEngine::Application
+class Sandbox : public MarCrapEngine::Application
 {
 public:
 	Sandbox() {}
 	~Sandbox() {}
 };
 
-MCEngine::Application* MCEngine::CreateApplication()
+MarCrapEngine::Application* MarCrapEngine::CreateApplication()
 {
 	return new Sandbox();
 }
